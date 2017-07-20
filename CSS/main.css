@@ -55,3 +55,17 @@ h1, h2, h3, h4, h5, h6, p {
 
     background-color: #ccc;
 }
+
+.headerbar {
+    height: 60px;
+    width: 100%;
+    background-color: pink;
+    float: left;
+}
+
+.sidebar {
+    height: 500px;
+    width: 10%;
+    background-color: sandybrown;
+    float:left;
+}

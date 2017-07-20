@@ -4,19 +4,33 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/main.css" type="text/css"/>
     <script src="main.js"> </script>
-    <title>Hello World!</title>
+    <title>Week 2 Task</title>
   </head>
   <body>
-    <header class="titlebar">Testing App</header>
+    <header class="titlebar">First Form</header>
     <section class="appbody">
-        <h1>First Electron App</h1>
-        <p>We are using node <script>document.write(process.versions.node)</script>,
-        Chrome <script>document.write(process.versions.chrome)</script>,
-        and Electron <script>document.write(process.versions.electron)</script>.</p>
+      <div class="headerbar">
+        <h1>Calculate Total Amount</h1>
+      </div>
+        <!-- <p>We are using node <script>document.write(process.versions.node)</script>, -->
+        <!-- Chrome <script>document.write(process.versions.chrome)</script>, -->
+        <!-- and Electron <script>document.write(process.versions.electron)</script>.</p> -->
 
-        <input type="text" value="Can I drag this?" >
-        <input type="button" value="Click me!" onclick="ShowMe()" >
-        <input id="content" placeholder="type something" >
+        <!-- <input type="text" value="Can I drag this?" > -->
+        <!-- <input type="button" value="Click me!" onclick="ShowMe()" > -->
+        <!-- <input id="content" placeholder="type something" > -->
+        <div class="sidebar">
+        </div>
+        <form id="total_form" name="total_form">
+          <label for="Original_amount"><h4>Original amount:</h4></label>
+          <input type="text">
+          <label for="Tax_percentage"><h4>Tax percentage:</h4></label>
+          <input type="text">
+          <label for="Total_amount"><h4>Total amount:</h4></label>
+          <input type="text">
+          <br>
+          <input type="button" value="Calculate" onclick="ShowMe()">
+          <input type="button" value="Reset form" onclick="ShowMe()">
     </section>
   </body>
 </html>
