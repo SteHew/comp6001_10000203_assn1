@@ -3,12 +3,20 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/main.css" type="text/css"/>
+    <script src="main.js"> </script>
     <title>Hello World!</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using node <script>document.write(process.versions.node)</script>,
-    Chrome <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
+    <header class="titlebar">Testing App</header>
+    <section class="appbody">
+        <h1>First Electron App</h1>
+        <p>We are using node <script>document.write(process.versions.node)</script>,
+        Chrome <script>document.write(process.versions.chrome)</script>,
+        and Electron <script>document.write(process.versions.electron)</script>.</p>
+
+        <input type="text" value="Can I drag this?" >
+        <input type="button" value="Click me!" onclick="ShowMe()" >
+        <input id="content" placeholder="type something" >
+    </section>
   </body>
 </html>

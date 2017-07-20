@@ -39,3 +39,14 @@ app.on('activate', () => {
     createWindow()
   }
 })
+
+//function ShowMe() {
+//    alert("I want to see a box :-)");
+//}
+
+function ShowMe() {
+
+    var a = document.getElementById('content');
+
+    alert(a.value);
+}
