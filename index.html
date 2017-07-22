@@ -9,6 +9,7 @@
   <body>
     <header class="titlebar">First Form</header>
     <section class="appbody">
+      <form id="total_form" name="total_form">
       <div class="headerbar">
         <h1>Calculate Total Amount</h1>
       </div>
@@ -21,16 +22,20 @@
         <!-- <input id="content" placeholder="type something" > -->
         <div class="sidebar">
         </div>
-        <form id="total_form" name="total_form">
+        <div class="form_area">
           <label for="Original_amount"><h4>Original amount:</h4></label>
           <input type="text">
+          <br>
           <label for="Tax_percentage"><h4>Tax percentage:</h4></label>
           <input type="text">
+          <br>
           <label for="Total_amount"><h4>Total amount:</h4></label>
           <input type="text">
           <br>
-          <input type="button" value="Calculate" onclick="ShowMe()">
-          <input type="button" value="Reset form" onclick="ShowMe()">
+          <br>
+          <input type="button" class="button1" value="Calculate" onclick="ShowMe()">
+          <input type="button" class="button2" value="Reset form" onclick="ShowMe()">
+        </div>
     </section>
   </body>
 </html>
