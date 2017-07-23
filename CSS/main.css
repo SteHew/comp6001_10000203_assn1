@@ -57,13 +57,14 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .headerbar {
-    height: 50px;
+    height: 40px;
     width: 100%;
     background-color: pink;
     float: left;
     font-family: arial;
     padding: 10px;
-    font-style: normal;
+    padding-top: 0px;
+    padding-bottom: 15px;
 }
 
 .sidebar {
@@ -78,8 +79,9 @@ h1, h2, h3, h4, h5, h6, p {
     height: 250px;
     width: 90%;
     background-color: #D7BDE2;
-    float:left;
+    float:right;
     font-family: arial;
+    text-align: center;
 }
 
 .button1 {
@@ -88,6 +90,8 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: #ABEBC6;
     font-family: arial;
     font-size: 15pt;
+    position: absolute;
+    left: 120px;
 }
 
 .button2 {
@@ -96,16 +100,19 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: wheat;
     font-family: arial;
     font-size: 15pt;
+    position: absolute;
+    left: 300px;
 }
 
 label {
     display: inline-block;
     height: 50px;
-    width: 200px;
-    text-align: right;
+    font-size: 15pt;
 }
 
 .button_space {
-    width: 40%;
-    float: left;
+    background-color: #D7BDE2;
+    float:left;
+    font-family: arial;
+    text-align: center;
 }
