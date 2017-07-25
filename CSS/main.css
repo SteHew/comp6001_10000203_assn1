@@ -71,37 +71,18 @@ h1, h2, h3, h4, h5, h6, p {
     height: 250px;
     width: 10%;
     background-color:#FAD7A0;
-    float:left;
+    float: left;
     font-family: arial;
 }
 
-.form_area {
-    height: 250px;
-    width: 90%;
+.form_area1 {
+    height: 160px;
+    width: 35%;
     background-color: #D7BDE2;
-    float:right;
+    float: left;
     font-family: arial;
-    text-align: center;
-}
-
-.button1 {
-    height: 50px;
-    width: 150px;
-    background-color: #ABEBC6;
-    font-family: arial;
-    font-size: 15pt;
-    position: absolute;
-    left: 120px;
-}
-
-.button2 {
-    height: 50px;
-    width: 150px;
-    background-color: wheat;
-    font-family: arial;
-    font-size: 15pt;
-    position: absolute;
-    left: 300px;
+    text-align: right;
+    /* padding-right: 17px;  */
 }
 
 label {
@@ -110,9 +91,62 @@ label {
     font-size: 15pt;
 }
 
-.button_space {
+.form_area2 {
+    height: 160px;
+    width: 55%;
     background-color: #D7BDE2;
-    float:left;
+    float: left;
     font-family: arial;
-    text-align: center;
+    /* text-align: center; */
+}
+
+#box {
+    border: 1px solid;
+    /* width: 200px;
+    padding-left: 20px; */
+}
+
+.form_area3 {
+    height: 90px;
+    width: 70%;
+    background-color: #D7BDE2;
+    float: left;
+    font-family: arial;
+}
+
+.button1 {
+    height: 50px;
+    width: 150px;
+    background-color: #ABEBC6;
+    font-family: arial;
+    font-size: 15pt;
+}
+
+.button2 {
+    height: 50px;
+    width: 150px;
+    background-color: wheat;
+    font-family: arial;
+    font-size: 15pt;
+}
+
+#parent {
+    text-align: justify;
+}
+
+#parent li {
+    display: inline-block;  
+}
+
+#parent:after {
+    content: '';
+    width: 70%; 
+    display: inline-block;
+}
+
+.form_area4 {
+    height: 90px;
+    width: 20%;
+    background-color: #D7BDE2;
+    float: left; 
 }
