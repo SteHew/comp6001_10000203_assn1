@@ -16,11 +16,11 @@
         <div class="sidebar">
         </div>
         <div class="form_area1">
-          <label for="Original_amount"><h4>Original amount:</h4></label>
+          <label for="original_amount"><h4>Original amount:</h4></label>
           <br>
-          <label for="Tax_percentage"><h4>Tax percentage:</h4></label>
+          <label for="tax_percentage"><h4>Tax percentage:</h4></label>
           <br>
-          <label for="Total_amount"><h4>Total amount:</h4></label>
+          <label for="total_amount"><h4>Total amount:</h4></label>
         </div>
         <div class="form_area2">
         </div>
@@ -36,12 +36,20 @@
         </div>
         <div class="form_area4">
           <ul id="parent">            
-            <li><input type="button" class="button1" value="Calculate" onclick="ShowMe()"></li>
+            <li><input type="button" class="button1" value="Calculate" onclick="calculateTotal()"></li>
             <li><input type="button" class="button2" value="Reset form" onclick="ShowMe()"></li>
           </ul>
         </div>
         <div class="form_area5">
         </div>
+      </form>
+      <script type="text/javascript">
+        var calculateTotal = function calculateTotal() {
+            var original_amount = document.getElementById('original_amount').value;
+            var tax_percentage = 0.15;
+            var total_amount = document.getElementById('total_amount').value = original_amount * tax_percentage;
+        }
+      </script>
     </section>
   </body>
 </html>
