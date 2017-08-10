@@ -18,6 +18,7 @@ textarea {
 
 h1, h2, h3, h4, h5, h6, p {
     -webkit-user-select: none;
+    user-select: none;
 }
 
 .titlebar {
@@ -42,103 +43,58 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .appbody {
-    position: relative;
-    top:0;
-    left: 0;
+    position: relative; 
+    top:50px;
+    left: 20px;
+    font-family: Arial;
+    font-size: 15pt;
 
-    height: calc(100% - 50px);
-    width: 100%;
+    /* height: calc(100% - 50px); */
+    /* width: 100%; */
 
-    margin: 0;
-    padding: 5px;
-    box-sizing: border-box;
+    /* margin: 0; */
+    /* padding: 5px; */
+    /* box-sizing: border-box; */
 
-    background-color: #ccc;
 }
 
-.headerbar {
-    height: 40px;
-    width: 100%;
-    background-color: pink;
-    float: left;
-    font-family: arial;
-    padding: 10px;
-    padding-top: 0px;
-    padding-bottom: 15px;
+#total_form {
+     background-color: white; 
 }
 
-.sidebar {
-    height: 250px;
-    width: 10%;
-    background-color:#FAD7A0;
-    float: left;
-    font-family: arial;
+#bgColorChoice {
+    font-family: Arial;
+    font-size: 12pt;
+    background-color: white; 
 }
 
-.form_area1 {
-    height: 160px;
-    width: 35%;
-    background-color: #D7BDE2;
-    float: left;
-    font-family: arial;
-    text-align: right;
-    /* padding-right: 17px;  */
-}
-
-label {
-    display: inline-block;
-    height: 50px;
-    font-size: 14pt;
-}
-
-.form_area2 {
-    height: 160px;
-    width: 6%;
-    background-color: #D7BDE2;
-    float: left;
-}
-
-.form_area3 {
-    height: 160px;
-    width: 49%;
-    background-color: #D7BDE2;
-    float: left;
-    font-family: arial;
-    /* text-align: center; */
-}
-
-#box {
-    border: 1px solid;
-    width: 220px;
-    /* padding-left: 20px; */
-}
-
-.form_area4 {
-    height: 90px;
-    width: 65%;
-    background-color: #D7BDE2;
-    float: left;
-    font-family: arial;
+.space_above {
+    height: 300px;
 }
 
 .button1 {
     height: 50px;
     width: 150px;
-    background-color: #ABEBC6;
+    background-color: lightgrey;
     font-family: arial;
     font-size: 15pt;
+    padding-left: 13px;
+    margin-right: 10px;  
 }
 
 .button2 {
     height: 50px;
     width: 150px;
-    background-color: wheat;
+    background-color: lightgrey;
     font-family: arial;
     font-size: 15pt;
+    padding-left: 15px;
+    margin-right: 100px; 
 }
 
 #parent {
     text-align: justify;
+    padding-top: 300px;
 }
 
 #parent li {
@@ -151,9 +107,3 @@ label {
     display: inline-block;
 }
 
-.form_area5 {
-    height: 90px;
-    width: 25%;
-    background-color: #D7BDE2;
-    float: left; 
-}

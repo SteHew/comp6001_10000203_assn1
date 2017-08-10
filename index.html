@@ -3,53 +3,36 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/main.css" type="text/css"/>
-    <script src="main.js"> </script>
-    <title>Week 2 Task</title>
+    <script src="jsfiles/colorfunction.js"> </script>
+    <title>Assessment 1</title>
   </head>
   <body>
-    <header class="titlebar">First Form</header>
-    <section class="appbody">
-      <form id="total_form" name="total_form">
-      <div class="headerbar">
-        <h1>Calculate Total Amount</h1>
-      </div>
-        <div class="sidebar">
-        </div>
-        <div class="form_area1">
-          <label for="original_amount"><h4>Original amount:</h4></label>
-          <br>
-          <label for="tax_percentage"><h4>Tax percentage:</h4></label>
-          <br>
-          <label for="total_amount"><h4>Total amount:</h4></label>
-        </div>
-        <div class="form_area2">
-        </div>
-        <div class="form_area3">
-          <br>
-          <input type="text" id="box" style="font-size:17pt;">
-          <br>
-          <br>
-          <input type="text" id="box" style="font-size:17pt;">
-          <br>
-          <br>
-          <input type="text" id="box" style="font-size:17pt;">
-        </div>
-        <div class="form_area4">
-          <ul id="parent">            
-            <li><input type="button" class="button1" value="Calculate" onclick="calculateTotal()"></li>
-            <li><input type="button" class="button2" value="Reset form" onclick="ShowMe()"></li>
-          </ul>
-        </div>
-        <div class="form_area5">
-        </div>
-      </form>
-      <script type="text/javascript">
-        var calculateTotal = function calculateTotal() {
-            var original_amount = document.getElementById('original_amount').value;
-            var tax_percentage = 0.15;
-            var total_amount = document.getElementById('total_amount').value = original_amount * tax_percentage;
-        }
-      </script>
-    </section>
+    <header class="titlebar">Chameleon App</header>
+     <section class="appbody"> 
+       <form id="total_form" name="total_form">
+          <form name="bgColorForm">Please select a background colour:  
+          <select id="bgColorChoice" onChange="changeBG()">
+            <option value="choose">Change colour</option>
+            <option value="#FFFFCC">Light Yellow</option>
+            <option value="#CCFFFF">Light Blue</option>
+            <option value="#CCFFCC">Light Green</option>
+            <option value="#FFA07A">Light Salmon</option>
+            <option value="#FF00FF">Magenta</option>
+            <option value="#9370DB">Medium Purple</option>
+            <option value="#00FF00">Lime</option>
+            <option value="#00FFFF">Cyan</option>
+            <option value="#DC143C">Crimson</option>
+            <option value="#D2B48C">Tan</option>
+          </select>
+          </form> 
+          <div class="space_above">
+          </div>
+          <div>
+              <input type="button" class="button1" value="Confirm" onclick="confirmColor()"></button>
+              <input type="button" class="button2" value="Reset Form" onclick="formReset()"></button>
+              <p id="confirm"></p>
+          </div> 
+          </form>
+         </section> 
   </body>
 </html>

@@ -44,11 +44,5 @@ app.on('activate', () => {
 //    alert("I want to see a box :-)");
 //}
 
-function calculateTotal() {
 
-    var original_amount = document.getElementById('original_amount').value;
-    var tax_percentage = document.getElementById('tax_percentage').value;
-    var total_amount = document.getElementById('total_amount').value = (original_amount * tax_percentage) + original_amount;
 
-    alert(a.value);
-}

@@ -1,11 +1,11 @@
 {
-    "name": "ApplicationName",
+    "name": "comp6001_10000203_assn1",
     "version" : "0.0.1",
     "main" : "main.js",
     "scripts" : {
         "start" : "electron ."
     },
-    "description" : "First app with Electron",
-    "repository" : "https://Stephen_Hewlett@bitbucket.org/Stephen_Hewlett/electron_app2.git",
+    "description" : "BG Colour app with Electron",
+    "repository" : "https://github.com/SteHew/comp6001_10000203_assn1",
     "license" : "Type of license"
 }
