@@ -14,5 +14,5 @@ function confirmColor() {
 }
 
 function formReset() {
-    var selectedBGColor=document.getElementById("total_form").reset();
+    document.getElementById("total_form").reset();
 }

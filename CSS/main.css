@@ -42,30 +42,21 @@ h1, h2, h3, h4, h5, h6, p {
     box-sizing: border-box;
 }
 
-.appbody {
+#appbody {
     position: relative; 
     top:50px;
     left: 20px;
     font-family: Arial;
     font-size: 15pt;
-
-    /* height: calc(100% - 50px); */
-    /* width: 100%; */
-
-    /* margin: 0; */
-    /* padding: 5px; */
-    /* box-sizing: border-box; */
-
 }
 
 #total_form {
-     background-color: white; 
+    /* color: white; */
 }
 
 #bgColorChoice {
     font-family: Arial;
     font-size: 12pt;
-    background-color: white; 
 }
 
 .space_above {
@@ -79,7 +70,7 @@ h1, h2, h3, h4, h5, h6, p {
     font-family: arial;
     font-size: 15pt;
     padding-left: 13px;
-    margin-right: 10px;  
+    float: left;  
 }
 
 .button2 {
@@ -89,21 +80,7 @@ h1, h2, h3, h4, h5, h6, p {
     font-family: arial;
     font-size: 15pt;
     padding-left: 15px;
-    margin-right: 100px; 
+    margin-left: 40px; 
 }
 
-#parent {
-    text-align: justify;
-    padding-top: 300px;
-}
-
-#parent li {
-    display: inline-block;  
-}
-
-#parent:after {
-    content: '';
-    width: 60%; 
-    display: inline-block;
-}
 

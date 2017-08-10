@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/main.css" type="text/css"/>
     <script src="jsfiles/colorfunction.js"> </script>
-    <title>Assessment 1</title>
   </head>
   <body>
     <header class="titlebar">Chameleon App</header>
-     <section class="appbody"> 
+     <section id="appbody"> 
        <form id="total_form" name="total_form">
-          <form name="bgColorForm">Please select a background colour:  
+           <form id="bgColorForm">Please select a background colour:
           <select id="bgColorChoice" onChange="changeBG()">
             <option value="choose">Change colour</option>
             <option value="#FFFFCC">Light Yellow</option>
@@ -24,15 +23,15 @@
             <option value="#DC143C">Crimson</option>
             <option value="#D2B48C">Tan</option>
           </select>
-          </form> 
+           </form>  
           <div class="space_above">
           </div>
-          <div>
+          <div id="buttons">
               <input type="button" class="button1" value="Confirm" onclick="confirmColor()"></button>
               <input type="button" class="button2" value="Reset Form" onclick="formReset()"></button>
               <p id="confirm"></p>
           </div> 
-          </form>
-         </section> 
+        </form>
+      </section> 
   </body>
 </html>
