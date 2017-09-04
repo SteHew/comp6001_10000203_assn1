@@ -14,5 +14,5 @@ function confirmColor() {
 }
 
 function formReset() {
-    document.getElementById("total_form").reset();
+    document.getElementById("changecolor").style.backgroundColor = "White";
 }
